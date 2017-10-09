@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1186px){
+    section#how-works .item-box{
+        width: 70%;
+    }
+    header img.w-header{
+        margin-top:260px;
+    }
+}
+
+@media only screen and (max-width: 988px){
+    header img.w-header{
+        margin-top: 315px;
+    }
+    section#how-works .item-box{
+        width: 50%;
+    }
+    section#how-works img.mockup{
+        width: 550px;
+        height:275px;
+        bottom: -18px;
+    }
+    section#how-works .item-box.r{
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    button.send,button.wanna-know-more, nav.desk img.logo{
+        float: none;
+    }
+    section#contact p.t1, section#contact p.t2, section#contact p.t2, header p.t2, header p.t1, section#contact p.t3, section#contact p.t4{
+        text-align: center;
+    }
+    img.logo2{
+        margin-bottom: 30px;
+    }
+    .center-align{
+        text-align: center !important;
+    }
+    section#contact .lofst{
+        padding-left: 15px;
+    }
+    section#how-works{
+        padding-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    section#how-works .item-box .item-ball,section#how-works .item-box .img-ball, section#how-works .item-box p.letter-back{
+        display: none;
+    }
+    section#how-works .item-box p.front-text{
+        position: static;
+        text-align: center !important;
+        margin-top: 40px;
+    }
+    section#how-works .item-box{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    button{
+        width: 280px !important;
+    }
+}
